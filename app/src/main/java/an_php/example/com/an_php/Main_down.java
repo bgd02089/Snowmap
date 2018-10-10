@@ -20,7 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class Main_down extends Activity implements View.OnClickListener {
     /** Called when the activity is first created. */
     String File_Name = "확장자를 포함한 파일명";
     String File_extend = "확장자명";
