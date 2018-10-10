@@ -2,19 +2,18 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/업로드"
+        android:text="@string/upload"
         android:id="@+id/up_btn"
         />
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
         android:id="@+id/messageText"
@@ -23,9 +22,9 @@
         />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/다운로드"
+        android:text="@string/download"
         android:id="@+id/down_btn" />
 
     <ProgressBar

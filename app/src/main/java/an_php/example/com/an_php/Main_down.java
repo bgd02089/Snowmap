@@ -1,12 +1,12 @@
 package an_php.example.com.an_php;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Main_down extends Activity implements View.OnClickListener {
+public class Main_down extends AppCompatActivity implements View.OnClickListener {
     /** Called when the activity is first created. */
     String File_Name = "확장자를 포함한 파일명";
     String File_extend = "확장자명";
